@@ -1,0 +1,9 @@
+.hamburger-container {
+  width: 25px;
+  height: 25px;
+}
+
+.bar {
+  width: 8px;
+  height: 100%;
+}
