@@ -18,7 +18,6 @@ class Header extends Component {
 
   render() {
     let { categories, isChecked } = this.state;
-    console.log(isChecked);
     return (
       <div id="menuToggle">
         <input
@@ -46,11 +45,3 @@ class Header extends Component {
 }
 
 export default Header;
-
-// <header>
-//   <div className="hamburger-container" onClick={this.handleHamburgerMenu}>
-//     <div className="bar bar1" />
-//     <div className="bar bar2" />
-//     <div className="bar bar3" />
-//   </div>
-// </header>
