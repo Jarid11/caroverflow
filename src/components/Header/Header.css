@@ -26,7 +26,6 @@ a:hover {
   cursor: pointer;
   opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
-
   -webkit-touch-callout: none;
 }
 
@@ -97,7 +96,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   /* to stop flickering of text in safari */
-
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
 
